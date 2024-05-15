@@ -16,10 +16,10 @@ systemctl start jenkins
 #systemctl status jenkins
 #cat /var/lib/jenkins/secrets/initialAdminPassword
 #
-#ssh-keygen -t ed25519 -f /root/.ssh/id_ed25519 -C "shupik3@gmail.com"
+#ssh-keygen -t ed25519 -f /root/.ssh/id_ed25519 -C "vizcio9@gmail.com"
 apt install expect -y
-#ssh-keygen_command="ssh-keygen -t ed25519 -f /root/.ssh/id_ed25519 -C \"shupik3@gmail.com\""
-echo "y" | ssh-keygen -t ed25519 -f /root/.ssh/id_ed25519 -C "shupik3@gmail.com" -P ""
+#ssh-keygen_command="ssh-keygen -t ed25519 -f /root/.ssh/id_ed25519 -C \"vizcio9@gmail.com\""
+echo "y" | ssh-keygen -t ed25519 -f /root/.ssh/id_ed25519 -C "vizcio9@gmail.com" -P ""
 
 # Використання expect для автоматизації
 expect -c "
